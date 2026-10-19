@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+
+# Environment files and secrets (never commit these)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p8
+*.p12
+*.jks
+*.mobileprovision
+
+# Build output
+dist/
+build/
+coverage/
+web-build/
+
+# Expo / React Native
+.expo/
+.expo-shared/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Local development uploads (property photos stored on disk in dev)
+backend/uploads/
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
